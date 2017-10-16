@@ -1,0 +1,35 @@
+{
+  "trophies" : [
+    {
+      "id" : "0",
+      "title" : "Trophy Name",
+      "desc" : "Trophy Description"
+    },
+    {
+      "id" : "1",
+      "title" : "First Sapling",
+      "desc" : "You have planted your first seed!"
+    },
+    {
+      "id" : "2",
+      "title" : "First Nurturing",
+      "desc" : "Your seed has grown into a sprout!"
+    },
+    {
+      "id" : "3",
+      "title" : "First Stalk",
+      "desc" : "Your sprout has a growth!"
+    },
+    {
+      "id" : "4",
+      "title" : "First Fully-Grown",
+      "desc" : "Your plant has blossomed beautifully!"
+    },
+    {
+      "id" : "5",
+      "title" : "First Resident",
+      "desc" : "You have released your first citizen to Bunille!"
+    },
+    {}
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name" : "",
+  "start" : "",
+  "last" : "",
+  "rank" : 0,
+  "exp" : 0,
+  "coins" : 0,
+  "gems" : 0,
+  "current-plants" : [
+    {
+      "name" : "",
+      "stage" : 0,
+      "growthCurr" : "",
+      "isRested" : false,
+      "restTime" : 0,
+      "blossomPoints" : 0
+    },
+    {
+
+    },
+    {
+
+    }
+  ],
+  "bloom-ranking" : [
+    {
+      "id" : "0",
+      "rank" : 0,
+      "exp" : 0
+    },
+    {},
+    {}
+  ],
+  "items" : [
+
+  ],
+  "scores" : [
+
+  ],
+  "trophies" : [
+    {
+      "obtained" : true,
+      "when" : ""
+    },
+    {}
+  ]
+}

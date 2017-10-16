@@ -1,0 +1,14 @@
+{
+  "ranking_bloom" : [
+    {
+      "rank" : 0,
+      "next" : 0,
+      "coins" : 0,
+      "gems" : 0,
+      "itemID" : 0,
+      "playerExp" : 0
+    },
+    {},
+    {}
+  ]
+}

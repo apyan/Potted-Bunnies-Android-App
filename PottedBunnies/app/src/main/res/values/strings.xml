@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Potted Bunnies</string>
+    <string name="app_version">Alpha (0.0.0)</string>
+
+    <!-- Initialize Screen strings -->
+    <string name="init_000">Sprouting...</string>
+    <string name="init_001">Watering...</string>
+    <string name="init_002">Game Data</string>
+    <string name="init_002_a">No game data has been found.</string>
+    <string name="init_002_b">What would you like to do?</string>
+    <string name="init_002_c">New Game</string>
+    <string name="init_002_d">Migrate</string>
+    <string name="init_003_a">New Player</string>
+
+    <!-- Splash Title Screen strings -->
+    <string name="title_000">Potted Bunnies</string>
+    <string name="title_001">Tap to Proceed</string>
+    <string name="title_002"></string>
+
+    <!-- Loading Screen strings -->
+    <string-array name="loading_messages">
+        <item>Arranging pots...</item>
+        <item>Changing soil...</item>
+        <item>Water spraying...</item>
+        <item>Applying manure...</item>
+        <item>Clipping leaves...</item>
+    </string-array>
+
+</resources>

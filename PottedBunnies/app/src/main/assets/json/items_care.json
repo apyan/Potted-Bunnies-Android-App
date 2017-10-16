@@ -1,0 +1,12 @@
+{
+  "items_care" : [
+    {
+      "id" : 0,
+      "name" : "",
+      "desc" : "",
+      "coins" : 0,
+      "gems" : 0
+    },
+    {}
+  ]
+}

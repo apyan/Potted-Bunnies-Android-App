@@ -1,0 +1,25 @@
+{
+  "seeds" : [
+    {
+      "id" : "0",
+      "name" : "Drop Seed",
+      "desc" : "",
+      "image" : "",
+      "anim-happy" : "",
+      "anim-tap" : "",
+      "anim-gloom" : "",
+      "anim-press" : "",
+      "growth" : 100,
+      "restTime" : 2000,
+      "sprout-45" : 0,
+      "sprout-25" : 0,
+      "sprout-15" : 0,
+      "sprout-10" : 0,
+      "sprout-05" : 0
+    },
+    {},
+    {},
+    {},
+    {}
+  ]
+}
