@@ -1,8 +1,20 @@
 package com.example.spectrum.pottedbunnies.AppFunctions;
 
+import android.content.Context;
+
 /**
- * Created by apyan on 10/18/17.
+ * Arranges and create the JSON file for the user data.
  */
 
 public class JSONPlayerData {
+
+    // Variables
+    Context context;
+
+    // Constructor
+    public JSONPlayerData(Context eContext) {
+        context = eContext;
+
+    }
+
 }

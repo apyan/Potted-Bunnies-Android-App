@@ -1,9 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
     tools:context="com.example.spectrum.pottedbunnies.MainMenuScreen">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout_00"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_02"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/text_000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/player_000" />
+
+            <TextView
+                android:id="@+id/text_001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/player_001" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_03"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/text_002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/player_002" />
+
+            <TextView
+                android:id="@+id/text_003"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/player_003" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_place"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!--<fragment
+            android:id="@+id/fragment_place"
+            android:name="com.spectrus.chemport.LessonFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView_00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/linearLayout_01"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="77dp"
+                tools:ignore="UselessParent">
+
+                <Button
+                    android:id="@+id/button_00"
+                    android:layout_width="77dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="12dp"
+                    android:onClick="onHomeFragment"
+                    android:textSize="16sp"
+                    android:text="@string/main_000"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button_01"
+                    android:layout_width="77dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="12dp"
+                    android:onClick="onGamesFragment"
+                    android:textSize="16sp"
+                    android:text="@string/main_001"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button_02"
+                    android:layout_width="77dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="12dp"
+                    android:onClick="onGalleryFragment"
+                    android:textSize="16sp"
+                    android:text="@string/main_002"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button_03"
+                    android:layout_width="77dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="12dp"
+                    android:onClick="onStoreFragment"
+                    android:textSize="16sp"
+                    android:text="@string/main_003"
+                    tools:ignore="ButtonStyle" />
+
+                <Button
+                    android:id="@+id/button_04"
+                    android:layout_width="77dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|center"
+                    android:paddingBottom="12dp"
+                    android:onClick="onOptionsFragment"
+                    android:textSize="16sp"
+                    android:text="@string/main_004"
+                    tools:ignore="ButtonStyle" />
+
+            </TableRow>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

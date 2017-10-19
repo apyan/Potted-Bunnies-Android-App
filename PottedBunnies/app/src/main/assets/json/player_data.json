@@ -6,7 +6,7 @@
   "currency" : [ "coins", "gems"],
   "options" : [true, true, true, true, true],
   "items" : [ "1 growth serum s", ""],
-  "gacha" : [ "seed", "", ""],
+  "gacha" : [ "seed", "store ticket", "premium ticket"],
   "scores" : [ "mPots2X4", "mPots3x4", "mPots4x4", "mPots4x5"],
   "plays" : [ "", "", "", ""],
   "seedGallery" : [ "amount by id", "", ""],
@@ -22,7 +22,8 @@
       "growthCurr" : "",
       "blossomRank" : 1,
       "blossomExp" : 0,
-      "blossomNext" : 0
+      "blossomNext" : 0,
+      "potType" : 0
     },
   "citizens" : [
     {

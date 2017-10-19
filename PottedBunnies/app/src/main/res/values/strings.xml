@@ -2,6 +2,13 @@
 
     <string name="app_name">Potted Bunnies</string>
     <string name="app_version">Alpha (0.0.0)</string>
+    <string name="app_user_data">pb-user-data.json</string>
+
+    <!-- Player Status -->
+    <string name="player_000">Name</string>
+    <string name="player_001">Rank</string>
+    <string name="player_002">Coins</string>
+    <string name="player_003">Gems</string>
 
     <!-- Connection Purposes -->
     <string name="connect_000">Connection</string>
@@ -33,6 +40,8 @@
     <string name="title_002"></string>
 
     <!-- Loading Screen strings -->
+    <string name="load_cd_000">The loading image and animation of the screen.</string>
+    <string name="load_000">Loading...</string>
     <string-array name="loading_messages">
         <item>Sprouting in progress...</item>
         <item>Arranging pots...</item>
@@ -47,6 +56,6 @@
     <string name="main_001">Games</string>
     <string name="main_002">Gallery</string>
     <string name="main_003">Store</string>
-    <string name="main_004">Options</string>
+    <string name="main_004">Option</string>
 
 </resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:gravity="center|bottom">
+
+    <!-- Potted Bunny View -->
+    <LinearLayout
+        android:id="@+id/linearLayout_00"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <!-- Left Column for Buttons -->
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="UselessLeaf">
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            tools:ignore="InefficientWeight,NestedWeights,UselessLeaf">
+
+            <ImageView
+                android:id="@+id/pottery_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pottery_000"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentBottom="true"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/plant_00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="135dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/planted_seed_000"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <!-- Right Column for Buttons -->
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <ImageView
+                android:id="@+id/pail_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/water_pail_000"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/citizen_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/citizenship_000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Item Scroll Deck -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <HorizontalScrollView
+            android:id="@+id/scrollView_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/item_000"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/seed_000"
+                    android:contentDescription=""
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
