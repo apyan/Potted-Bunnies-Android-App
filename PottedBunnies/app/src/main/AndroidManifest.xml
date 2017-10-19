@@ -2,24 +2,50 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.spectrum.pottedbunnies">
 
+    <!-- Permissions Granted -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- android:theme="@style/Theme.AppCompat.NoActionBar" -->
+    <!-- android:roundIcon="@mipmap/pb_icon_1_0_0" -->
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/pb_icon_1_0_0"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".InitializeScreen">
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+        <activity
+            android:name=".InitializeScreen"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashTitleScreen" />
-        <activity android:name=".MainMenuScreen" />
-        <activity android:name=".LoadingScreen" />
-        <activity android:name=".Scene_000"></activity>
+        <activity
+            android:name=".SplashTitleScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainMenuScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoadingScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scene_000"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GameOrderPluckingScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GameMatchingPots"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

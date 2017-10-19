@@ -1,47 +1,57 @@
 {
+  "connect-id" : "",
   "name" : "",
-  "start" : "",
-  "last" : "",
-  "rank" : 0,
-  "exp" : 0,
-  "coins" : 0,
-  "gems" : 0,
-  "current-plants" : [
+  "dates" : [ "start", "last"],
+  "rank" : [ "rank", "exp"],
+  "currency" : [ "coins", "gems"],
+  "options" : [true, true, true, true, true],
+  "items" : [ "1 growth serum s", ""],
+  "gacha" : [ "seed", "", ""],
+  "scores" : [ "mPots2X4", "mPots3x4", "mPots4x4", "mPots4x5"],
+  "plays" : [ "", "", "", ""],
+  "seedGallery" : [ "amount by id", "", ""],
+  "sproutGallery" : [ "amount by id", "", ""],
+  "blossomGallery" : [ "amount by id", "", ""],
+  "stickerGallery" : [ false, false, false],
+  "waitTime" : [ "restTime", "waterRefill", "other" ],
+  "current-plant" :
     {
       "name" : "",
+      "id" : "0",
       "stage" : 0,
       "growthCurr" : "",
-      "isRested" : false,
-      "restTime" : 0,
-      "blossomPoints" : 0
+      "blossomRank" : 1,
+      "blossomExp" : 0,
+      "blossomNext" : 0
     },
+  "citizens" : [
     {
-
-    },
-    {
-
-    }
-  ],
-  "bloom-ranking" : [
-    {
+      "name" : "",
       "id" : "0",
+      "stage" : 0,
       "rank" : 0,
-      "exp" : 0
-    },
-    {},
-    {}
-  ],
-  "items" : [
-
-  ],
-  "scores" : [
-
+      "birth" : "",
+      "date" : ""
+    }
   ],
   "trophies" : [
     {
       "obtained" : true,
       "when" : ""
-    },
-    {}
+    }
+  ],
+  "mailbox" : [
+    {
+      "recieved" : "",
+      "title" : "",
+      "message" : "",
+      "isRead" : false,
+      "presents" : [
+        {
+          "type" : 0,
+          "amount" : 0
+        }
+      ]
+    }
   ]
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For Notifications Purposes -->
+
+    <string name="notify_000">Water Pail Filled</string>
+    <string name="notify_000a">The water pail has been filled.\nGo water your bunny!</string>
+
+    <string name="notify_001">Plant Growth</string>
+    <string name="notify_001a">Your bunny is ready to grow.\nGo witness it!</string>
+
+    <string name="notify_002"></string>
+
+    <string name="notify_003"></string>
+
+</resources>

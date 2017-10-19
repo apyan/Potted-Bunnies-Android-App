@@ -3,4 +3,29 @@
 
     <!-- For Tutorials -->
 
+    <!-- Planting the First Seed -->
+    <string-array name="tutorial_000_a">
+        <item>Hey [player]!</item>
+        <item>Remember the Drop Seed\nthat I gave you?</item>
+        <item>Here in the main menu,\nyou can find it in the item storage.</item>
+        <item>Open the drawer by dragging the handle upwards.</item>
+        <item>And you should see the Drop Seed there!</item>
+        <item>Give it a try!</item>
+    </string-array>
+
+    <string-array name="tutorial_000_b">
+        <item>Now that you have the Drop Seed.</item>
+        <item>Let\'s go plant it!</item>
+        <item>See the three empty pots over there?</item>
+        <item>Drag the seed over to the front pot.</item>
+        <item>Let\'s give it a go!</item>
+    </string-array>
+
+    <string-array name="tutorial_000_c">
+        <item>Now you have planted the Drop Seed.</item>
+        <item>But what is a seed to do without water?</item>
+        <item>See the water pail over there?</item>
+        <item>Try dragging it to the seeded pot and see what happens!</item>
+    </string-array>
+
 </resources>

@@ -8,10 +8,14 @@
     <string name="name_000b">Mayor Monil</string>
     <string-array name="dialogue_000">
         <item>Greetings newcomer!\nYou must be [player].</item>
-        <item>Welcome to the town of Bunnile!</item>
-        <item>Here in Bunille, it is widely populated with\nsentient bunny-shaped succulents.</item>
-        <item>Otherwise, known as the genus,\nMonilaria.</item>
-        <item>Anyhow, lets get you started in\nhelping our society grow.</item>
+        <item>Welcome to the town of Bunille!</item>
+        <item>Here in Bunille, it is widely populated with\nsentient bunny-shaped plants.</item>
+        <item>Otherwise from the genus,\nMonilaria.</item>
+        <item>There are many types of these\nplants that exists in this world.</item>
+        <item>And together, we can create a\nflourishing society.</item>
+        <item>Currently, Bunille is low on residents.</item>
+        <item>Meaning that our society can\'t flourish.</item>
+        <item>Lets get you started in\nhelping our society grow.</item>
         <item>Here is a seed!</item>
     </string-array>
     <string name="dialogue_000_a">Item Obtained</string>

@@ -1,7 +1,11 @@
 {
   "ranking_player" : [
     {
-
+      "rank" : 0,
+      "next" : 0,
+      "coin" : 0,
+      "gems" : 0,
+      "prize" : []
     },
     {}
   ]

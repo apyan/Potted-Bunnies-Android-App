@@ -3,15 +3,29 @@
     <string name="app_name">Potted Bunnies</string>
     <string name="app_version">Alpha (0.0.0)</string>
 
+    <!-- Connection Purposes -->
+    <string name="connect_000">Connection</string>
+    <string name="connect_000_a">Connection cannot be found.\Please try again.</string>
+    <string name="connect_000_b">Retry</string>
+    <string name="connect_000_c">Quit</string>
+
+    <string name="connect_001">Version Update</string>
+    <string name="connect_002_a">A new version is available.\nPlease head to the Google Play Store for details.</string>
+    <string name="connect_002_b">Update</string>
+    <string name="connect_002_c">Quit</string>
+
     <!-- Initialize Screen strings -->
-    <string name="init_000">Sprouting...</string>
-    <string name="init_001">Watering...</string>
-    <string name="init_002">Game Data</string>
-    <string name="init_002_a">No game data has been found.</string>
-    <string name="init_002_b">What would you like to do?</string>
-    <string name="init_002_c">New Game</string>
-    <string name="init_002_d">Migrate</string>
-    <string name="init_003_a">New Player</string>
+    <string name="init_000">Game Data</string>
+    <string name="init_000_a">No game data has been found.</string>
+    <string name="init_000_b">What would you like to do?</string>
+    <string name="init_000_c">New Game</string>
+    <string name="init_000_d">Migrate</string>
+    <string name="init_001_a">Welcome</string>
+    <string name="init_001_b">Before you can proceed,\nplease tell me your name.</string>
+    <string name="init_001_c">* Character range is 2 - 12.</string>
+    <string name="init_001_d">Enter a name.</string>
+    <string name="init_001_e">* Invalid name, please try again.</string>
+    <string name="init_001_f">Proceed</string>
 
     <!-- Splash Title Screen strings -->
     <string name="title_000">Potted Bunnies</string>
@@ -20,11 +34,19 @@
 
     <!-- Loading Screen strings -->
     <string-array name="loading_messages">
+        <item>Sprouting in progress...</item>
         <item>Arranging pots...</item>
         <item>Changing soil...</item>
-        <item>Water spraying...</item>
+        <item>Water in spraying...</item>
         <item>Applying manure...</item>
         <item>Clipping leaves...</item>
     </string-array>
+
+    <!-- Main Menu Screen strings -->
+    <string name="main_000">Home</string>
+    <string name="main_001">Games</string>
+    <string name="main_002">Gallery</string>
+    <string name="main_003">Store</string>
+    <string name="main_004">Options</string>
 
 </resources>
