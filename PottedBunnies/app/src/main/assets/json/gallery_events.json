@@ -1,0 +1,17 @@
+{
+  "gallery_events" : [
+    {
+      "id" : 0,
+      "name" : "Event Name",
+      "desc" : "Event Description",
+      "coins" : 0,
+      "gems" : 0,
+      "growthPoints" : 0,
+      "rankPoints" : 0,
+      "freePrizeFood" : 0,
+      "freePrizeSoil" : 0,
+      "freePrizeOthers" : 0
+    },
+    {}
+  ]
+}

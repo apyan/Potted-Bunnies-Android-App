@@ -7,16 +7,18 @@
     android:orientation="vertical"
     tools:context="com.example.spectrum.pottedbunnies.MainMenuScreen">
 
+    <!-- Player Status -->
     <LinearLayout
         android:id="@+id/linearLayout_00"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/colorPrimary"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center|left"
+        tools:ignore="RtlHardcoded">
 
         <LinearLayout
             android:id="@+id/linearLayout_02"
-            android:layout_marginTop="4dp"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,7 +43,6 @@
 
         <LinearLayout
             android:id="@+id/linearLayout_03"
-            android:layout_marginTop="4dp"
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -66,6 +67,7 @@
 
     </LinearLayout>
 
+    <!-- For Fragments -->
     <FrameLayout
         android:id="@+id/fragment_place"
         android:layout_width="match_parent"
@@ -82,6 +84,7 @@
 
     </FrameLayout>
 
+    <!-- For Fragment Navigation -->
     <HorizontalScrollView
         android:id="@+id/scrollView_00"
         android:layout_width="wrap_content"

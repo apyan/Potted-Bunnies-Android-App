@@ -19,12 +19,12 @@ import com.example.spectrum.pottedbunnies.AppFunctions.AppGraphics;
  * Fragment for the Home page.
  */
 
-public class FragmentHome extends Fragment implements View.OnClickListener  {
+public class FragmentHome extends Fragment implements View.OnClickListener {
 
     // Variables for Activity Fragment
     AppGraphics activityFragGraphics;
 
-    Button button_00;
+    Button button_00, button_01;
     ImageView imageView_00;
 
     // Testing Purposes
@@ -41,6 +41,8 @@ public class FragmentHome extends Fragment implements View.OnClickListener  {
         imageView_00.setOnClickListener(this);
         button_00 =  (Button) v.findViewById(R.id.citizen_button);
         button_00.setOnClickListener(this);
+        button_01 =  (Button) v.findViewById(R.id.mail_button);
+        button_01.setOnClickListener(this);
 
         // Set title font
         String fontPath = "fonts/Titillium-Bold.ttf";
@@ -97,6 +99,10 @@ public class FragmentHome extends Fragment implements View.OnClickListener  {
                 break;
             // To Citizenship
             case R.id.citizen_button:
+
+                break;
+            // Open Mailbox Popup
+            case R.id.mail_button:
 
                 break;
             default:

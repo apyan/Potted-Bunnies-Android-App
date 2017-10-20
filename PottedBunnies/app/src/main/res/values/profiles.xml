@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Profile Descriptions for Plant Citizens -->
+    <string-array name="profile_descriptions">
+        <item>Jolly</item>
+        <item>Depressed</item>
+        <item>Enraged</item>
+        <item>Panicked</item>
+        <item>Sarcastic</item>
+        <item>Sassy</item>
+        <item>Devious</item>
+        <item>Cute</item>
+        <item>Brutal</item>
+        <item>Scientific</item>
+        <item>Nihilistic</item>
+        <item>Compassionate</item>
+        <item>Genius</item>
+        <item>Curious</item>
+        <item>Energetic</item>
+        <item>Brave</item>
+        <item>Weird</item>
+        <item>Eccentric</item>
+        <item>Dubious</item>
+        <item>Dramatic</item>
+        <item>Traumatized</item>
+        <item>Reserved</item>
+        <item>Creative</item>
+        <item>Optimistic</item>
+        <item>Pessimistic</item>
+        <item>Generous</item>
+        <item>Thrifty</item>
+        <item>Arrogant</item>
+        <item>Prideful</item>
+        <item>Gluttonous</item>
+        <item>Fabulous</item>
+        <item>Fashionable</item>
+        <item>Crazed</item>
+        <item>Timid</item>
+        <item>Shy</item>
+        <item>Quiet</item>
+        <item>Bold</item>
+        <item>Daring</item>
+        <item>Gullible</item>
+        <item>Cheerful</item>
+    </string-array>
+
+    <!-- Profile Careers for Plant Citizens -->
+    <string-array name="profile_careers">
+        <item>Student</item>
+        <item>Dancer</item>
+        <item>Chef</item>
+        <item>Dishwasher</item>
+        <item>Teacher</item>
+        <item>Lawyer</item>
+        <item>Nurse</item>
+        <item>Doctor</item>
+        <item>Maid</item>
+        <item>Teller</item>
+        <item>Clown</item>
+        <item>Butler</item>
+        <item>Artist</item>
+        <item>Physician</item>
+        <item>Scientist</item>
+        <item>Accountant</item>
+        <item>Engineer</item>
+        <item>Inventor</item>
+        <item>Writer</item>
+        <item>Journalist</item>
+        <item>Explorer</item>
+        <item>Hiker</item>
+        <item>Mechanic</item>
+        <item>Designer</item>
+        <item>Architect</item>
+        <item>Fashionista</item>
+        <item>Plumber</item>
+        <item>Waiter</item>
+        <item>Actor</item>
+        <item>Police</item>
+        <item>Skater</item>
+        <item>Janitor</item>
+        <item>Fisher</item>
+        <item>Shopkeeper</item>
+        <item>Librarian</item>
+        <item>Consultant</item>
+    </string-array>
+
+</resources>

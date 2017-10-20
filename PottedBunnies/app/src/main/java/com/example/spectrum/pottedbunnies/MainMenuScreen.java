@@ -100,7 +100,7 @@ public class MainMenuScreen extends FragmentActivity {
         }
         buttonClickTime = SystemClock.elapsedRealtime();
 
-        //getFragmentManager().beginTransaction().replace(R.id.fragment_place, new ActivityFragment()).commit();
+        getFragmentManager().beginTransaction().replace(R.id.fragment_place, new FragmentGames()).commit();
     }
 
     // Gallery Fragment
@@ -111,7 +111,7 @@ public class MainMenuScreen extends FragmentActivity {
         }
         buttonClickTime = SystemClock.elapsedRealtime();
 
-        //getFragmentManager().beginTransaction().replace(R.id.fragment_place, new IndexFragment()).commit();
+        getFragmentManager().beginTransaction().replace(R.id.fragment_place, new FragmentGallery()).commit();
     }
 
     // Store Fragment
@@ -122,7 +122,7 @@ public class MainMenuScreen extends FragmentActivity {
         }
         buttonClickTime = SystemClock.elapsedRealtime();
 
-        //getFragmentManager().beginTransaction().replace(R.id.fragment_place, new OptionFragment()).commit();
+        getFragmentManager().beginTransaction().replace(R.id.fragment_place, new FragmentStore()).commit();
     }
 
     // Options Fragment
@@ -133,7 +133,7 @@ public class MainMenuScreen extends FragmentActivity {
         }
         buttonClickTime = SystemClock.elapsedRealtime();
 
-        //getFragmentManager().beginTransaction().replace(R.id.fragment_place, new OptionFragment()).commit();
+        getFragmentManager().beginTransaction().replace(R.id.fragment_place, new FragmentOptions()).commit();
     }
 
     // The phone's hardware back button is pressed

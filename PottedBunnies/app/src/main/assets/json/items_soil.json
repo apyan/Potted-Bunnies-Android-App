@@ -1,0 +1,17 @@
+{
+  "items_soil" : [
+    {
+      "id" : 0,
+      "name" : "Soil Name",
+      "desc" : "Soil Description",
+      "coins" : 0,
+      "gems" : 0,
+      "growthPoints" : 0,
+      "rankPoints" : 0,
+      "chargeTime" : 0,
+      "eventTriggerRate" : 0,
+      "eventType" : 0
+    },
+    {}
+  ]
+}

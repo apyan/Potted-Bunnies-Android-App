@@ -1,0 +1,17 @@
+{
+  "items_food" : [
+    {
+      "id" : 0,
+      "name" : "Food Name",
+      "desc" : "Food Description",
+      "coins" : 0,
+      "gems" : 0,
+      "growthPoints" : 0,
+      "rankPoints" : 0,
+      "chargeTime" : 0,
+      "eventTriggerRate" : 0,
+      "eventType" : 0
+    },
+    {}
+  ]
+}
