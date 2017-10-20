@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:id="@+id/frag_games">
+
+    <ScrollView
+        android:id="@+id/scrollView_00"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="false"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="150dp" >
+
+                <Button
+                    android:id="@+id/games_00"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:gravity="bottom|left"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="@string/game_000"
+                    tools:ignore="ButtonStyle,RtlHardcoded,RtlSymmetry" />
+
+                <Button
+                    android:id="@+id/games_01"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:gravity="bottom|left"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="@string/game_001"
+                    tools:ignore="ButtonStyle,RtlHardcoded,RtlSymmetry" />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

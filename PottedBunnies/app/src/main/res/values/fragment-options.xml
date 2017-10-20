@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Options Fragment strings -->
+    <string name="options_title">Options</string>
+    <string name="options_000">Profile</string>
+    <string name="options_001">Game Records</string>
+    <string name="options_002">Graphics</string>
+    <string name="options_003">Sound</string>
+    <string name="options_004">Notifications</string>
+    <string name="options_005">Connect</string>
+    <string name="options_006">Support</string>
+    <string name="options_007">Bulletin</string>
+    <string name="options_008">Credits</string>
+    <string name="options_009">Clear Data</string>
+
+</resources>

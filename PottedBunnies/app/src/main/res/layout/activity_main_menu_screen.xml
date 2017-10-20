@@ -94,14 +94,14 @@
         <LinearLayout
             android:id="@+id/linearLayout_01"
             android:layout_width="wrap_content"
-            android:layout_height="77dp"
+            android:layout_height="70dp"
             android:gravity="center"
             android:background="@color/colorAccent"
             android:orientation="vertical" >
 
             <TableRow
                 android:layout_width="wrap_content"
-                android:layout_height="77dp"
+                android:layout_height="70dp"
                 tools:ignore="UselessParent">
 
                 <Button
@@ -111,7 +111,7 @@
                     android:gravity="bottom|center"
                     android:paddingBottom="12dp"
                     android:onClick="onHomeFragment"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:text="@string/main_000"
                     tools:ignore="ButtonStyle" />
 
@@ -122,7 +122,7 @@
                     android:gravity="bottom|center"
                     android:paddingBottom="12dp"
                     android:onClick="onGamesFragment"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:text="@string/main_001"
                     tools:ignore="ButtonStyle" />
 
@@ -133,7 +133,7 @@
                     android:gravity="bottom|center"
                     android:paddingBottom="12dp"
                     android:onClick="onGalleryFragment"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:text="@string/main_002"
                     tools:ignore="ButtonStyle" />
 
@@ -144,7 +144,7 @@
                     android:gravity="bottom|center"
                     android:paddingBottom="12dp"
                     android:onClick="onStoreFragment"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:text="@string/main_003"
                     tools:ignore="ButtonStyle" />
 
@@ -155,7 +155,7 @@
                     android:gravity="bottom|center"
                     android:paddingBottom="12dp"
                     android:onClick="onOptionsFragment"
-                    android:textSize="16sp"
+                    android:textSize="15sp"
                     android:text="@string/main_004"
                     tools:ignore="ButtonStyle" />
 

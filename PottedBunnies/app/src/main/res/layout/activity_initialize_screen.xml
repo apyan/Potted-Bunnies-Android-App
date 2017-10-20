@@ -12,8 +12,8 @@
         android:id="@+id/image_000"
         android:src="@drawable/loading_char_000"
         android:contentDescription="@string/load_cd_000"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:onClick="toProceed"/>
 
     <TextView

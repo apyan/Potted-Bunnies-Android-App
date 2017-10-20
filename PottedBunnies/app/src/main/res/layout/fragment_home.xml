@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:screenOrientation="portrait"
     android:orientation="vertical"
-    android:gravity="center|bottom">
+    android:gravity="center|bottom"
+    android:id="@+id/frag_home">
 
     <!-- Potted Bunny View -->
     <LinearLayout

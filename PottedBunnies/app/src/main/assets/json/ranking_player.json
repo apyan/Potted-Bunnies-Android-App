@@ -5,8 +5,27 @@
       "next" : 0,
       "coin" : 0,
       "gems" : 0,
-      "prize" : []
+      "itemFood" : [],
+      "itemSoil" : [],
+      "itemOther" : []
     },
-    {}
+    {
+      "rank" : 1,
+      "next" : 25,
+      "coin" : 0,
+      "gems" : 0,
+      "itemFood" : [],
+      "itemSoil" : [],
+      "itemOther" : []
+    },
+    {
+      "rank" : 2,
+      "next" : 50,
+      "coin" : 0,
+      "gems" : 0,
+      "itemFood" : [],
+      "itemSoil" : [],
+      "itemOther" : []
+    }
   ]
 }

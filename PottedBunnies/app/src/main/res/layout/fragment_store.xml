@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frag_store">
+
+    <ScrollView
+        android:id="@+id/scrollView_00"
+        android:layout_width="match_parent"
+        android:fadeScrollbars="false"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical"
+            tools:ignore="ObsoleteLayoutParam">
+
+            <Button
+                android:id="@+id/store_00"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:textSize="20sp"
+                android:gravity="bottom|left"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:text="@string/store_000"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <Button
+                android:id="@+id/store_01"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:textSize="20sp"
+                android:gravity="bottom|left"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:text="@string/store_001"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <Button
+                android:id="@+id/store_02"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:textSize="20sp"
+                android:gravity="bottom|left"
+                android:paddingBottom="15dp"
+                android:paddingLeft="20dp"
+                android:text="@string/store_002"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

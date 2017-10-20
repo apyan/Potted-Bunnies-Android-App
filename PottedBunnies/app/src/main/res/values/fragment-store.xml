@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Store Fragment strings -->
+    <string name="store_title">Store</string>
+    <string name="store_000">General Store</string>
+    <string name="store_001">Seed Machine</string>
+    <string name="store_002">Bunny Machine</string>
+    <string name="store_003"></string>
+    <string name="store_004"></string>
+    <string name="store_005"></string>
+
+    <!-- General Store -->
+    <string name="gs_store_000"></string>
+
+    <!-- Seed Machine -->
+    <string name="sm_store_000"></string>
+    <string name="sm_type_000">Casual Mix</string>
+    <string name="sm_type_001">Garden Mix</string>
+    <string name="sm_type_002">Peculiar Mix</string>
+    <string name="sm_type_003"></string>
+    <string name="sm_type_004"></string>
+    <string name="sm_type_005"></string>
+
+    <!-- Bunny Machine -->
+    <string name="bm_store_000"></string>
+    <string name="bm_type_000">Daily</string>
+    <string name="bm_type_001">Common</string>
+    <string name="bm_type_002">Premium</string>
+    <string name="bm_type_003">Event</string>
+
+</resources>

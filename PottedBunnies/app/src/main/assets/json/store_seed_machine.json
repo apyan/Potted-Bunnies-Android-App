@@ -1,0 +1,60 @@
+{
+  "store_seed_machine" : [
+    {
+      "id" : 0,
+      "name" : "Machine Name",
+      "desc" : "Machine Description",
+      "coins" : 0,
+      "gems" : 0,
+      "ticketType" : "What ticket it accepts",
+      "item-30" : 0,
+      "item-25" : 0,
+      "item-20" : 0,
+      "item-12" : 0,
+      "item-10" : 0,
+      "item-03" : 0
+    },
+    {
+      "id" : 1,
+      "name" : "Casual Mix",
+      "desc" : "An affordable mix of seeds for beginner gardeners.",
+      "coins" : 10,
+      "gems" : 0,
+      "ticketType" : 0,
+      "item-30" : 0,
+      "item-25" : 0,
+      "item-20" : 0,
+      "item-12" : 0,
+      "item-10" : 0,
+      "item-03" : 0
+    },
+    {
+      "id" : 2,
+      "name" : "Garden Mix",
+      "desc" : "A special mix of seeds for plant enthusiast.",
+      "coins" : 25,
+      "gems" : 1,
+      "ticketType" : 0,
+      "item-30" : 0,
+      "item-25" : 0,
+      "item-20" : 0,
+      "item-12" : 0,
+      "item-10" : 0,
+      "item-03" : 0
+    },
+    {
+      "id" : 3,
+      "name" : "Peculiar Mix",
+      "desc" : "A strange mix of seeds used for experiments.",
+      "coins" : 100,
+      "gems" : 2,
+      "ticketType" : 0,
+      "item-30" : 0,
+      "item-25" : 0,
+      "item-20" : 0,
+      "item-12" : 0,
+      "item-10" : 0,
+      "item-03" : 0
+    }
+  ]
+}
