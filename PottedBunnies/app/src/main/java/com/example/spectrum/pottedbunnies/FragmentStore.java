@@ -18,7 +18,7 @@ public class FragmentStore extends Fragment implements View.OnClickListener {
 
     // Variables for Activity Fragment
     AppGraphics activityFragGraphics;
-    Button button_00, button_01, button_02;
+    Button button_00, button_01, button_02, button_03;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -36,6 +36,9 @@ public class FragmentStore extends Fragment implements View.OnClickListener {
         button_02 = (Button) v.findViewById(R.id.store_02);
         button_02.setOnClickListener(this);
         button_02.setTextColor(Color.WHITE);
+        button_03 = (Button) v.findViewById(R.id.store_03);
+        button_03.setOnClickListener(this);
+        button_03.setTextColor(Color.WHITE);
 
         return v;
     }
@@ -53,6 +56,10 @@ public class FragmentStore extends Fragment implements View.OnClickListener {
                 break;
             // To Bunny Machine
             case R.id.store_02:
+
+                break;
+            // To Coins and Gems
+            case R.id.store_03:
 
                 break;
             default:

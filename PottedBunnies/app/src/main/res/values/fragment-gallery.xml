@@ -3,11 +3,12 @@
 
     <!-- Gallery Fragment strings -->
     <string name="gallery_title">Gallery</string>
-    <string name="gallery_000"></string>
-    <string name="gallery_001"></string>
-    <string name="gallery_002"></string>
-    <string name="gallery_003"></string>
-    <string name="gallery_004"></string>
-    <string name="gallery_005"></string>
+    <string name="gallery_000">Inventory</string>
+    <string name="gallery_001">Citizens</string>
+    <string name="gallery_002">Potted Bunnies</string>
+    <string name="gallery_003">Scores</string>
+    <string name="gallery_004">Trophies</string>
+    <string name="gallery_005">Sticker Book</string>
+    <string name="gallery_006"></string>
 
 </resources>

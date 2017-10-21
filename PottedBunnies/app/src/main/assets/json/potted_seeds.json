@@ -20,7 +20,7 @@
     {
       "id" : 1,
       "name" : "Drop Seed",
-      "desc" : "A basic seed that resembles a drop.",
+      "desc" : "A basic seed that resembles a teardrop.",
       "image" : "R.drawable.planted_seed_001",
       "emote_1" : "Emote Animation 1",
       "emote_2" : "Emote Animation 2",
@@ -34,8 +34,40 @@
       "sprout-10" : 0,
       "sprout-05" : 0
     },
-    {},
-    {},
+    {
+      "id" : 2,
+      "name" : "Round Seed",
+      "desc" : "A basic seed that resembles a pebble.",
+      "image" : "R.drawable.planted_seed_001",
+      "emote_1" : "Emote Animation 1",
+      "emote_2" : "Emote Animation 2",
+      "emote_3" : "Emote Animation 3",
+      "growthNeed" : 100,
+      "restTime" : 50000,
+      "rankExp" : 20,
+      "sprout-45" : 0,
+      "sprout-25" : 0,
+      "sprout-15" : 0,
+      "sprout-10" : 0,
+      "sprout-05" : 0
+    },
+    {
+      "id" : 3,
+      "name" : "Grain Seed",
+      "desc" : "A basic seed that is a small speck.",
+      "image" : "R.drawable.planted_seed_001",
+      "emote_1" : "Emote Animation 1",
+      "emote_2" : "Emote Animation 2",
+      "emote_3" : "Emote Animation 3",
+      "growthNeed" : 100,
+      "restTime" : 50000,
+      "rankExp" : 20,
+      "sprout-45" : 0,
+      "sprout-25" : 0,
+      "sprout-15" : 0,
+      "sprout-10" : 0,
+      "sprout-05" : 0
+    },
     {}
   ]
 }

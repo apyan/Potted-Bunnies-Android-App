@@ -1,63 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:gravity="center|top"
     android:id="@+id/frag_store">
 
     <ScrollView
         android:id="@+id/scrollView_00"
         android:layout_width="match_parent"
         android:fadeScrollbars="false"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
         tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="center"
+            android:gravity="start"
             android:paddingTop="5dp"
             android:paddingBottom="5dp"
+            android:paddingStart="2dp"
             android:orientation="vertical"
-            tools:ignore="ObsoleteLayoutParam">
+            tools:ignore="ObsoleteLayoutParam,RtlSymmetry">
 
             <Button
                 android:id="@+id/store_00"
-                android:layout_width="340dp"
+                android:layout_width="350dp"
                 android:layout_height="150dp"
                 android:textSize="20sp"
-                android:gravity="bottom|left"
-                android:paddingBottom="15dp"
-                android:paddingLeft="20dp"
+                android:gravity="bottom|start"
+                android:layout_marginTop="55dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="15dp"
                 android:text="@string/store_000"
-                tools:ignore="RtlHardcoded,RtlSymmetry" />
+                tools:ignore="RtlSymmetry" />
 
             <Button
                 android:id="@+id/store_01"
-                android:layout_width="340dp"
+                android:layout_width="350dp"
                 android:layout_height="150dp"
                 android:textSize="20sp"
-                android:gravity="bottom|left"
-                android:paddingBottom="15dp"
-                android:paddingLeft="20dp"
+                android:gravity="bottom|start"
+                android:paddingBottom="10dp"
+                android:paddingStart="15dp"
                 android:text="@string/store_001"
-                tools:ignore="RtlHardcoded,RtlSymmetry" />
+                tools:ignore="RtlSymmetry" />
 
             <Button
                 android:id="@+id/store_02"
-                android:layout_width="340dp"
+                android:layout_width="350dp"
                 android:layout_height="150dp"
                 android:textSize="20sp"
-                android:gravity="bottom|left"
-                android:paddingBottom="15dp"
-                android:paddingLeft="20dp"
+                android:gravity="bottom|start"
+                android:paddingBottom="10dp"
+                android:paddingStart="15dp"
                 android:text="@string/store_002"
-                tools:ignore="RtlHardcoded,RtlSymmetry" />
+                tools:ignore="RtlSymmetry" />
+
+            <Button
+                android:id="@+id/store_03"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:textSize="20sp"
+                android:gravity="bottom|start"
+                android:paddingBottom="10dp"
+                android:paddingStart="15dp"
+                android:text="@string/store_003"
+                tools:ignore="RtlSymmetry" />
 
         </LinearLayout>
     </ScrollView>
 
-</LinearLayout>
+    <!-- Store title label -->
+    <LinearLayout
+        android:id="@+id/linearLayout_00"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center|start"
+            android:paddingStart="15dp"
+            android:text="@string/store_title"
+            android:background="@drawable/textfield_000"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+</RelativeLayout>
