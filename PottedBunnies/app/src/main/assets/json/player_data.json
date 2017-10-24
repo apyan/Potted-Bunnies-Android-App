@@ -3,6 +3,8 @@
   "connect-type" : [ "", "", ""],
   "playerName" : "",
   "dateStatus" : [ "start", "last"],
+  "dailyEvents" : [ "logins", "firstTimeToday", "gemsAdWatch (coins is unlimited)", "others"],
+  "currentEvents" : [ "", ""],
   "rankStatus" : [ "rank", "exp"],
   "currencyCount" : [ "coins", "gems"],
   "optionsSet" : [ 0, 0, 0, 0, 0],

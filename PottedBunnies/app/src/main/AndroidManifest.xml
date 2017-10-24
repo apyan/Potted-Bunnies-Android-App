@@ -38,7 +38,7 @@
             android:name=".LoadingScreen"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Scene_000"
+            android:name=".SceneActivities.Scene_000"
             android:screenOrientation="portrait" />
         <activity
             android:name=".GameOrderPluckingScreen"

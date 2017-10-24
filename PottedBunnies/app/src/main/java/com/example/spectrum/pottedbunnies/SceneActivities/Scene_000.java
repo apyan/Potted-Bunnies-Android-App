@@ -1,7 +1,9 @@
-package com.example.spectrum.pottedbunnies;
+package com.example.spectrum.pottedbunnies.SceneActivities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.spectrum.pottedbunnies.R;
 
 // Scene 000: Introductory Scene
 

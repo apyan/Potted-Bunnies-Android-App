@@ -21,6 +21,12 @@
     <string name="connect_002_b">Update</string>
     <string name="connect_002_c">Quit</string>
 
+    <!-- Closing Application Popup -->
+    <string name="close_000">Close App</string>
+    <string name="close_001">Do you want to close\nPotted Bunnies?</string>
+    <string name="close_002">Proceed</string>
+    <string name="close_003">Back</string>
+
     <!-- Initialize Screen strings -->
     <string name="init_000">Game Data</string>
     <string name="init_000_a">No game data has been found.</string>
