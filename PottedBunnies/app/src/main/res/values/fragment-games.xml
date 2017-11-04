@@ -16,12 +16,16 @@
     <string name="op_game_000c">There are four amounts of pots\nyou can choose from!</string>
     <string name="op_game_000d">Base on how fast you pluck,\nrewards will be given!</string>
     <string name="op_game_000e">Back</string>
-    <string name="op_game_001">Pluck in order as fast as you can!</string>
+    <string name="op_game_001">Pluck in order as fast\nas you can!</string>
     <string name="op_game_mode_1">25</string>
     <string name="op_game_mode_2">50</string>
     <string name="op_game_mode_3">75</string>
     <string name="op_game_mode_4">100</string>
     <string name="op_game_002">Close</string>
+    <string name="op_game_tag">X</string>
+    <string name="op_game_pause">Pause</string>
+    <string name="op_game_high">High Score</string>
+    <string name="op_game_time">00:00:00</string>
 
 
 </resources>

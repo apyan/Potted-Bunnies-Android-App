@@ -4,20 +4,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="top|center"
     android:background="@drawable/popup_000"
     android:id="@+id/popup_exit_app">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="start|center"
+        android:layout_marginTop="170dp">
 
-        <TextView
-            android:id="@+id/popup_title"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/close_000"/>
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/popup_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#062108"
+                android:textSize="28sp"
+                android:text="@string/close_000"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/text_000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#062108"
+                android:textSize="20sp"
+                android:text="@string/close_001"
+                android:layout_marginBottom="90dp"/>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -26,19 +47,21 @@
 
             <Button
                 android:id="@+id/button_proceed"
-                android:layout_width="100dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:onClick="onPopupProceed"
                 android:text="@string/close_002"
-                tools:ignore="ButtonStyle" />
+                android:layout_marginRight="10dp"
+                tools:ignore="ButtonStyle,RtlHardcoded" />
 
             <Button
                 android:id="@+id/button_back"
-                android:layout_width="100dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:onClick="onPopupBack"
                 android:text="@string/close_003"
-                tools:ignore="ButtonStyle" />
+                android:layout_marginLeft="10dp"
+                tools:ignore="ButtonStyle,RtlHardcoded" />
 
         </LinearLayout>
 

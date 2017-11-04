@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    android:background="@drawable/popup_000"
+    android:id="@+id/popup_games_000">
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="170dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/popup_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#062108"
+                android:textSize="28sp"
+                android:text="@string/op_game_title"
+                android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/text_000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#062108"
+                android:textSize="20sp"
+                android:text="@string/op_game_001"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/op_mode_025"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/op_game_mode_1"
+                tools:ignore="ButtonStyle,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/op_mode_050"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/op_game_mode_2"
+                tools:ignore="ButtonStyle,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/op_mode_075"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/op_game_mode_3"
+                tools:ignore="ButtonStyle,RtlHardcoded" />
+
+            <Button
+                android:id="@+id/op_mode_100"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:text="@string/op_game_mode_4"
+                tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_op_close"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:onClick="onPopupClose"
+                android:layout_marginTop="10dp"
+                android:text="@string/op_game_002"
+                tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

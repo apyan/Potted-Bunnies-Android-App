@@ -1,12 +1,15 @@
 package com.example.spectrum.pottedbunnies;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.PopupWindow;
 
 import com.example.spectrum.pottedbunnies.AppFunctions.AppGraphics;
 
@@ -18,6 +21,7 @@ public class FragmentGames extends Fragment implements View.OnClickListener {
 
     // Variables for Activity Fragment
     AppGraphics activityFragGraphics;
+    PopupWindow orderPluckingPW;
     Button button_00, button_01;
 
     @Override
@@ -46,6 +50,18 @@ public class FragmentGames extends Fragment implements View.OnClickListener {
                 break;
             // To Order Plucking game
             case R.id.games_01:
+
+                // Create the Popup Window
+                LayoutInflater inflater = (LayoutInflater) getActivity().
+                        getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                View layout = inflater.inflate(R.layout.popup_games_000,
+                        (ViewGroup) v.findViewById(R.id.popup_games_000));
+                orderPluckingPW = new PopupWindow(layout, activityFragGraphics.getFullWidth(),
+                        activityFragGraphics.getFullHeight(), true);
+                orderPluckingPW.showAtLocation(layout, Gravity.CENTER, 0, 0);
+
+
+                activityFragGraphics.dimPopUpBackground(orderPluckingPW);
 
                 break;
             default:
