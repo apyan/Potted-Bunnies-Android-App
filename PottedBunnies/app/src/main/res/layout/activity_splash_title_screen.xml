@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:onClick="onProceed"
+    android:background="@drawable/op_background_000"
     tools:context="com.example.spectrum.pottedbunnies.SplashTitleScreen">
 
     <TextView
@@ -14,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="35sp"
+        android:textColor="#000000"
         android:text="@string/title_000"/>
 
     <TextView
@@ -22,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="25sp"
+        android:textColor="#000000"
         android:text="@string/title_001"/>
 
 </LinearLayout>

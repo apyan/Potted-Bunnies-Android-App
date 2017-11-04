@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center|top"
+    android:background="@drawable/op_background_000"
     tools:context="com.example.spectrum.pottedbunnies.GameOrderPluckingScreen">
 
     <LinearLayout

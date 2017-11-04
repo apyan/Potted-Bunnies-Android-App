@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="top|center"
-    android:background="@drawable/popup_000"
+    android:background="@drawable/popup_004"
     android:id="@+id/popup_games_000">
 
     <LinearLayout

@@ -14,6 +14,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/pb_icon_1_0_0"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:largeHeap="true"

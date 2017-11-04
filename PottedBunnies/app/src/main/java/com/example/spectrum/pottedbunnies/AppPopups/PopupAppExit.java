@@ -1,1 +1,0 @@
-        appGraphics = new AppGraphics(context);
