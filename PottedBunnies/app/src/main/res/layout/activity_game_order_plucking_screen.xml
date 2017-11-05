@@ -9,22 +9,27 @@
     android:background="@drawable/op_background_000"
     tools:context="com.example.spectrum.pottedbunnies.GameOrderPluckingScreen">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="75dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
+        android:gravity="center|top">
 
         <TextView
             android:id="@+id/high_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#000000"
             android:text="@string/op_game_high" />
 
         <TextView
             android:id="@+id/stop_watch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/textfield_000"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
             android:text="@string/op_game_time"/>
 
         <Button
@@ -32,85 +37,219 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:onClick="onGamePause"
-            android:textSize="15sp"
             android:text="@string/op_game_pause"
+            android:layout_alignParentRight="true"
+            android:textSize="15sp"
             tools:ignore="ButtonStyle" />
 
-    </LinearLayout>
+    </RelativeLayout>
 
     <TableRow
         android:id="@+id/tableRow_00"
+        android:layout_marginTop="55dp"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
         tools:ignore="UselessParent">
 
-        <Button
-            android:id="@+id/button_00"
-            android:layout_width="70dp"
+        <RelativeLayout
+            android:id="@+id/opGrid_1_1"
             android:layout_height="match_parent"
-            android:onClick="on-1-1"
-            android:textSize="15sp"
-            android:text="@string/op_game_tag"
-            tools:ignore="ButtonStyle" />
+            android:layout_width="70dp"
+            android:onClick="on_1_1">
 
-        <Button
-            android:id="@+id/button_01"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:onClick="onGamesFragment"
-            android:textSize="15sp"
-            android:text="@string/op_game_tag"
-            tools:ignore="ButtonStyle" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/op_game_pots_000"
+                android:contentDescription="@string/op_game_cd_00"/>
 
-        <Button
-            android:id="@+id/button_02"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:onClick="onGalleryFragment"
-            android:textSize="15sp"
-            android:text="@string/op_game_tag"
-            tools:ignore="ButtonStyle" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/op_game_plant_001"
+                android:contentDescription="@string/op_game_cd_01"/>
 
-        <Button
-            android:id="@+id/button_03"
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:onClick="onStoreFragment"
-            android:textSize="15sp"
-            android:text="@string/op_game_tag"
-            tools:ignore="ButtonStyle" />
+            <TextView
+                android:id="@+id/textGrid_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/op_game_tag"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="22sp"/>
+        </RelativeLayout>
 
-        <Button
-            android:id="@+id/button_04"
-            android:layout_width="70dp"
+        <RelativeLayout
+            android:id="@+id/opGrid_1_2"
             android:layout_height="match_parent"
-            android:onClick="onOptionsFragment"
-            android:textSize="15sp"
-            android:text="@string/op_game_tag"
-            tools:ignore="ButtonStyle" />
+            android:layout_width="70dp"
+            android:onClick="on_1_2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/op_game_pots_000"
+                android:contentDescription="@string/op_game_cd_00"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/op_game_plant_001"
+                android:contentDescription="@string/op_game_cd_01"/>
+
+            <TextView
+                android:id="@+id/textGrid_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/op_game_tag"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="22sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/opGrid_1_3"
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:onClick="on_1_3">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/op_game_pots_000"
+                android:contentDescription="@string/op_game_cd_00"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/op_game_plant_001"
+                android:contentDescription="@string/op_game_cd_01"/>
+
+            <TextView
+                android:id="@+id/textGrid_1_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/op_game_tag"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="22sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/opGrid_1_4"
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:onClick="on_1_4">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/op_game_pots_000"
+                android:contentDescription="@string/op_game_cd_00"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/op_game_plant_001"
+                android:contentDescription="@string/op_game_cd_01"/>
+
+            <TextView
+                android:id="@+id/textGrid_1_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/op_game_tag"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="22sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/opGrid_1_5"
+            android:layout_height="match_parent"
+            android:layout_width="70dp"
+            android:onClick="on_1_5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/op_game_pots_000"
+                android:contentDescription="@string/op_game_cd_00"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/op_game_plant_001"
+                android:contentDescription="@string/op_game_cd_01"/>
+
+            <TextView
+                android:id="@+id/textGrid_1_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/op_game_tag"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="22sp"/>
+        </RelativeLayout>
 
     </TableRow>
 
     <TableRow
         android:id="@+id/tableRow_01"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="90dp"
         tools:ignore="UselessParent">
 
-        <Button
-            android:id="@+id/button_05"
-            android:layout_width="70dp"
+        <RelativeLayout
+            android:id="@+id/opGrid_2_1"
             android:layout_height="match_parent"
-            android:onClick="on-1-1"
-            android:textSize="15sp"
-            android:text="@string/op_game_tag"
-            tools:ignore="ButtonStyle" />
+            android:layout_width="70dp"
+            android:onClick="on_2_1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/op_game_pots_000"
+                android:contentDescription="@string/op_game_cd_00"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/op_game_plant_001"
+                android:contentDescription="@string/op_game_cd_01"/>
+
+            <TextView
+                android:id="@+id/textGrid_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/op_game_tag"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="22sp"/>
+        </RelativeLayout>
 
         <Button
             android:id="@+id/button_06"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGamesFragment"
+            android:onClick="on_2_2"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -119,7 +258,7 @@
             android:id="@+id/button_07"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGalleryFragment"
+            android:onClick="on_2_3"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -128,7 +267,7 @@
             android:id="@+id/button_08"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onStoreFragment"
+            android:onClick="on_2_4"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -137,7 +276,7 @@
             android:id="@+id/button_09"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onOptionsFragment"
+            android:onClick="on_2_5"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -154,7 +293,7 @@
             android:id="@+id/button_10"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="on-1-1"
+            android:onClick="on_3_1"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -163,7 +302,7 @@
             android:id="@+id/button_11"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGamesFragment"
+            android:onClick="on_3_2"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -172,7 +311,7 @@
             android:id="@+id/button_12"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGalleryFragment"
+            android:onClick="on_3_3"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -181,7 +320,7 @@
             android:id="@+id/button_13"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onStoreFragment"
+            android:onClick="on_3_4"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -190,7 +329,7 @@
             android:id="@+id/button_14"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onOptionsFragment"
+            android:onClick="on_3_5"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -207,7 +346,7 @@
             android:id="@+id/button_15"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="on-1-1"
+            android:onClick="on_4_1"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -216,7 +355,7 @@
             android:id="@+id/button_16"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGamesFragment"
+            android:onClick="on_4_2"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -225,7 +364,7 @@
             android:id="@+id/button_17"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGalleryFragment"
+            android:onClick="on_4_3"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -234,7 +373,7 @@
             android:id="@+id/button_18"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onStoreFragment"
+            android:onClick="on_4_4"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -243,7 +382,7 @@
             android:id="@+id/button_19"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onOptionsFragment"
+            android:onClick="on_4_5"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -260,7 +399,7 @@
             android:id="@+id/button_20"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="on-1-1"
+            android:onClick="on_5_1"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -269,7 +408,7 @@
             android:id="@+id/button_21"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGamesFragment"
+            android:onClick="on_5_2"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -278,7 +417,7 @@
             android:id="@+id/button_22"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onGalleryFragment"
+            android:onClick="on_5_3"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -287,7 +426,7 @@
             android:id="@+id/button_23"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onStoreFragment"
+            android:onClick="on_5_4"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />
@@ -296,7 +435,7 @@
             android:id="@+id/button_24"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:onClick="onOptionsFragment"
+            android:onClick="on_5_5"
             android:textSize="15sp"
             android:text="@string/op_game_tag"
             tools:ignore="ButtonStyle" />

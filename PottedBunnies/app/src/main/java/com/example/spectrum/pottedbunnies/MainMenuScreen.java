@@ -19,7 +19,7 @@ import com.example.spectrum.pottedbunnies.AppFunctions.AppGraphics;
 
 public class MainMenuScreen extends FragmentActivity {
 
-    // Variables
+    // Variables for Activity
     AppGraphics fragMGraphics;
     public Context context;
     Button button_00, button_01, button_02, button_03, button_04, button_05, button_06;
@@ -39,6 +39,7 @@ public class MainMenuScreen extends FragmentActivity {
         context = MainMenuScreen.this;
         fragMGraphics = new AppGraphics(context);
 
+        // Assigning UI elements on the screen
         button_00 = (Button)findViewById(R.id.button_00);
         button_01 = (Button)findViewById(R.id.button_01);
         button_02 = (Button)findViewById(R.id.button_02);
@@ -90,7 +91,7 @@ public class MainMenuScreen extends FragmentActivity {
     // Home Fragment
     public void onHomeFragment(View v) {
         // Prevent multi-clicking, threshold of 250 ms
-        if (SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD){
+        if(SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD) {
             return;
         }
         buttonClickTime = SystemClock.elapsedRealtime();
@@ -101,7 +102,7 @@ public class MainMenuScreen extends FragmentActivity {
     // Games Fragment
     public void onGamesFragment(View v) {
         // Prevent multi-clicking, threshold of 250 ms
-        if (SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD){
+        if(SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD) {
             return;
         }
         buttonClickTime = SystemClock.elapsedRealtime();
@@ -112,7 +113,7 @@ public class MainMenuScreen extends FragmentActivity {
     // Gallery Fragment
     public void onGalleryFragment(View v) {
         // Prevent multi-clicking, threshold of 250 ms
-        if (SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD){
+        if(SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD) {
             return;
         }
         buttonClickTime = SystemClock.elapsedRealtime();
@@ -123,7 +124,7 @@ public class MainMenuScreen extends FragmentActivity {
     // Store Fragment
     public void onStoreFragment(View v) {
         // Prevent multi-clicking, threshold of 250 ms
-        if (SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD){
+        if(SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD) {
             return;
         }
         buttonClickTime = SystemClock.elapsedRealtime();
@@ -134,7 +135,7 @@ public class MainMenuScreen extends FragmentActivity {
     // Options Fragment
     public void onOptionsFragment(View v) {
         // Prevent multi-clicking, threshold of 250 ms
-        if (SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD){
+        if(SystemClock.elapsedRealtime() - buttonClickTime < TIME_THRESHOLD) {
             return;
         }
         buttonClickTime = SystemClock.elapsedRealtime();
@@ -155,7 +156,7 @@ public class MainMenuScreen extends FragmentActivity {
                 fragMGraphics.getFullHeight(), true);
         popupAppExit.showAtLocation(layout, Gravity.CENTER, 0, 0);
 
-        // UI Elements
+        // UI Elements of the Popup
         button_05 = (Button) popupAppExit.getContentView().findViewById(R.id.button_proceed);
         button_06 = (Button) popupAppExit.getContentView().findViewById(R.id.button_back);
         text_00 = (TextView) popupAppExit.getContentView().findViewById(R.id.popup_title);
@@ -165,13 +166,13 @@ public class MainMenuScreen extends FragmentActivity {
 
     }
 
-    // For the Popup to close tha application
+    // For the Popup to close the application
     public void onPopupProceed(View v) {
         popupAppExit.dismiss();
         finish();
     }
 
-    // For the Popup to go back
+    // For the Popup to go back to the application
     public void onPopupBack(View v) {
         popupAppExit.dismiss();
     }

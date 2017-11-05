@@ -17,4 +17,9 @@ public class JSONPlayerData {
 
     }
 
+    // Refreshes the current JSON file data
+    public void refreshJSONData(){
+
+    }
+
 }

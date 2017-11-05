@@ -26,6 +26,8 @@
     <string name="op_game_pause">Pause</string>
     <string name="op_game_high">High Score</string>
     <string name="op_game_time">00:00:00</string>
+    <string name="op_game_cd_00">Pot Image</string>
+    <string name="op_game_cd_01">Plant Image</string>
 
 
 </resources>

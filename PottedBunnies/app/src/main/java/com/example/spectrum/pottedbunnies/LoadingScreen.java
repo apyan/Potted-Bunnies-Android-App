@@ -1,9 +1,10 @@
 package com.example.spectrum.pottedbunnies;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class LoadingScreen extends AppCompatActivity {
+public class LoadingScreen extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

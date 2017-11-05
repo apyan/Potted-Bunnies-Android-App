@@ -14,4 +14,7 @@
     <string name="options_008">Credits</string>
     <string name="options_009">Clear Data</string>
 
+    <!-- Profile strings -->
+    <string name="profile_title">Player Profile</string>
+
 </resources>
