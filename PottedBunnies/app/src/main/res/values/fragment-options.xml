@@ -16,5 +16,10 @@
 
     <!-- Profile strings -->
     <string name="profile_title">Player Profile</string>
+    <string name="profile_000">Name:</string>
+    <string name="profile_001">Joined:</string>
+    <string name="profile_002"></string>
+
+    <!-- -->
 
 </resources>

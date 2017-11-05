@@ -6,7 +6,7 @@
     <string name="store_000">General Store</string>
     <string name="store_001">Seed Machine</string>
     <string name="store_002">Bunny Machine</string>
-    <string name="store_003">Coins and Gems</string>
+    <string name="store_003">Coins &amp; Gems</string>
     <string name="store_004"></string>
     <string name="store_005"></string>
 
@@ -28,5 +28,15 @@
     <string name="bm_type_001">Common</string>
     <string name="bm_type_002">Premium</string>
     <string name="bm_type_003">Event</string>
+
+    <!-- Coins and Gems -->
+    <string name="cg_store_000">Coins &amp; Gems</string>
+    <string name="cg_type_000">Watch Video</string>
+    <string name="cg_type_000a">Recieve a reward!</string>
+    <string name="cg_type_000b">100</string>
+    <string name="cg_type_001">Watch Video</string>
+    <string name="cg_type_001a">Recieve a reward!</string>
+    <string name="cg_type_001b">2</string>
+    <string name="cg_store_close">Close</string>
 
 </resources>

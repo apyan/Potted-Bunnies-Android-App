@@ -53,7 +53,7 @@ public class FragmentGames extends Fragment implements View.OnClickListener {
                 break;
             // To Order Plucking game
             case R.id.games_01:
-                // Create the Popup Window
+                // Create the Popup Window for Order Plucking game
                 LayoutInflater inflater = (LayoutInflater) getActivity().
                         getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 View layout = inflater.inflate(R.layout.popup_games_000,

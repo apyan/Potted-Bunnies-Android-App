@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:background="@drawable/popup_001"
+    android:id="@+id/popup_store_000">
+
+    <TextView
+        android:id="@+id/text_00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="35sp"
+        android:text="@string/cg_store_000"/>
+
+    <HorizontalScrollView
+        android:fadeScrollbars="false"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Value 00: Video Watching for Coins -->
+            <LinearLayout
+                android:id="@+id/cg_value_00"
+                android:layout_marginStart="10dp"
+                android:layout_width="115dp"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:gravity="center|top"
+                android:background="@drawable/button_value_000">
+
+                <TextView
+                    android:id="@+id/value_00_text_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/cg_type_000"
+                    android:textSize="15sp"/>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/value_icon_000"/>
+
+                <TextView
+                    android:id="@+id/value_00_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/cg_type_000a"
+                    android:textSize="12sp"/>
+
+                <LinearLayout
+                    android:layout_marginTop="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/coin_icon_001"/>
+
+                    <TextView
+                        android:id="@+id/value_00_text_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/cg_type_000b"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Value 01: Video Watching for Gems -->
+            <LinearLayout
+                android:id="@+id/cg_value_01"
+                android:layout_marginStart="10dp"
+                android:layout_width="115dp"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:gravity="center|top"
+                android:background="@drawable/button_value_000">
+
+                <TextView
+                    android:id="@+id/value_01_text_0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/cg_type_001"
+                    android:textSize="15sp"/>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/value_icon_000"/>
+
+                <TextView
+                    android:id="@+id/value_01_text_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/cg_type_001a"
+                    android:textSize="12sp"/>
+
+                <LinearLayout
+                    android:layout_marginTop="22dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/gem_icon_001"/>
+
+                    <TextView
+                        android:id="@+id/value_01_text_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="20dp"
+                        android:text="@string/cg_type_001b"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/cg_store_close"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/cg_store_close"/>
+
+</LinearLayout>
